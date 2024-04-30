@@ -1,0 +1,22 @@
+/* ClearButton container styles */
+.clear-button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .clear-button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary-color); /* Using the primary color defined in :root */
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Add margin to separate from search input */
+  }
+  
+  .clear-button:hover {
+    background-color: var(--secondary-color); /* Using the secondary color defined in :root */
+  }
+  
